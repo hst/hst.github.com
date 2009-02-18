@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: white;
+    font: 13.34px Calibri, helvetica, arial, clean, sans-serif;
+    *font-size: small;
+    text-align: center;
+}
+
+#header {
+    background: #c0c0c0 url(/images/header-bar.png) 0 100% repeat-x;
+    height: 92px;
+    min-width: 50em;
+    text-align: left;
+}
+
+#header .title {
+    font-family: Calibri, helvetica, arial, clean, sans-serif;
+    font-size: 60px;
+    font-weight: bold;
+    color: #8a0202;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+}
+
+#leftnav {
+    float: left;
+    width: 15em;
+    margin-top: 20px;
+}
+
+#leftnav p {
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#leftnav a {
+    font-family: helvetica, arial, clean, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #8a0202;
+    text-decoration: none;
+}
+
+#leftnav a:hover {
+    color: #b30202;
+}
+
+#body {
+    /* background-color: #c0c0c0; */
+    margin-top: 20px;
+    margin-left: 15em;
+    margin-right: 32px;
+    text-align: left;
+}
+
+#body h1 {
+    margin-top: 20px;
+}
+
+#body h2 {
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+#body p {
+    margin-top: 8px;
+    margin-left: 32px;
+}
+
+#body pre {
+    margin-top: 8px;
+    margin-left: 32px;
+    padding: 8px;
+    border: 1px solid #808080;
+    background-color: #e0e0e0;
+}
+
+#body ul {
+    margin-top: 8px;
+    margin-left: 64px;
+}
+
+#body li {
+    margin-top: 2px;
+}
+
+#body .download {
+    font-size: 11.5px;
+}
+
+.reference {
+    margin-top: 8px;
+    margin-left: 32px;
+}
+
+.citation_number {
+    width: 32px;
+    text-align: center;
+}
+
+.citation {
+    margin-left: 40px;
+    margin-top: -17px;
+}
