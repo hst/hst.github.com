@@ -99,6 +99,10 @@ body {
     margin-top: 2px;
 }
 
+#body li p {
+    margin-left: 0px;
+}
+
 #body .download {
     font-size: 11.5px;
 }
