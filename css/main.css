@@ -100,6 +100,11 @@ body {
     margin-left: 32px;
 }
 
+#body ol {
+    margin-top: 8px;
+    margin-left: 64px;
+}
+
 #body li {
     margin-top: 2px;
 }
